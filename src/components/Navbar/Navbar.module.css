@@ -1,0 +1,13 @@
+.nav {
+    grid-area: n;
+    background-color: lightpink;
+    padding: 20px;
+}
+.item a {
+    color: darkred;
+    text-decoration: none;
+}
+.item a.activeLink {
+    color: orangered;
+    font-weight: bold;
+}
