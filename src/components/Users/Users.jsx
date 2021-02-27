@@ -13,7 +13,7 @@ let Users = ({
                  ...props
              }) => {
     return <div>
-        <Paginator currentPage={currentPage} totalUsersCount={totalUsersCount}
+        <Paginator currentPage={currentPage} totalItemCount={totalUsersCount}
                    pageSize={pageSize} onPageChanged={onPageChanged}/>
         <div>
             {
