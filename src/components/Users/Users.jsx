@@ -2,16 +2,8 @@ import React from 'react';
 import Paginator from "../common/Paginator/Paginator";
 import User from "./User";
 
-let Users = ({
-                 currentPage,
-                 totalUsersCount,
-                 pageSize,
-                 onPageChanged,
-                 followingInProgress,
-                 unfollow,
-                 follow,
-                 ...props
-             }) => {
+let Users = ({currentPage, totalUsersCount, pageSize, onPageChanged,
+                 followingInProgress, unfollow, follow, ...props}) => {
     return <div>
         <Paginator currentPage={currentPage} totalItemCount={totalUsersCount}
                    pageSize={pageSize} onPageChanged={onPageChanged}/>
